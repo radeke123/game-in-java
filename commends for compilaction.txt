@@ -1,12 +1,11 @@
 test:
 javac -d test src/*.java
-jar cfm game.jar manifest.txt -C test .
+jar cfm test-game.jar manifest.txt -C test .
 
 debug:
 javac -d debug src/*.java
-jar cfm game.jar manifest.txt -C debug .
+jar cfm debug-game.jar manifest.txt -C debug .
 
 release:
 javac -d release src/*.java
 jar cfm game.jar manifest.txt -C release .
-
