@@ -7,9 +7,11 @@ public class Main {
 
         System.out.print("podaj swoje imię: ");
         String name = scanner.nextLine();
+        System.out.print("Podaj swój wiek: ");
+        int age = scanner.nextInt();
         System.out.println("Cześć " + name);
+        System.out.println("Masz " + age + " lat");
 
         scanner.close();
     }
 }
-
