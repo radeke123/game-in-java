@@ -1,0 +1,11 @@
+test:
+javac -d test src/*.java
+jar cfm gra.jar manifest.txt -C test .
+
+debug:
+javac -d debug src/*.java
+jar cfm gra.jar manifest.txt -C debug .
+
+release:
+javac -d release src/*.java
+jar cfm gra.jar manifest.txt -C release .
