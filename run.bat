@@ -1,3 +1,3 @@
 @echo off
-java -jar gra.jar
+java -jar game.jar
 pause
