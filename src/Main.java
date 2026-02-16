@@ -5,13 +5,14 @@ public class Main {
     {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("podaj swoje imię: ");
+        System.out.print("Enter your name: ");
         String name = scanner.nextLine();
-        System.out.print("Podaj swój wiek: ");
+        System.out.print("Enter your age: ");
         int age = scanner.nextInt();
-        System.out.println("Cześć " + name);
-        System.out.println("Masz " + age + " lat");
+        System.out.println("Hello " + name);
+        System.out.println("You have " + age + " years");
 
         scanner.close();
     }
 }
+
