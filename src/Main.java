@@ -13,7 +13,7 @@ public class Main {
         Player player = new Player(name, age);
 
         System.out.println("Hello " + player.getName());
-        System.out.println("Hello " + player.getAge());
+        System.out.println("You are " + player.getAge() + " years old");
 
         scanner.close();
     }
