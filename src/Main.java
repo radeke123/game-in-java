@@ -9,8 +9,11 @@ public class Main {
         String name = scanner.nextLine();
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
-        System.out.println("Hello " + name);
-        System.out.println("You have " + age + " years");
+
+        Player player = new Player(name, age);
+
+        System.out.println("Hello " + player.getName());
+        System.out.println("Hello " + player.getAge());
 
         scanner.close();
     }
