@@ -27,4 +27,4 @@ public  class Player {
     public void takeDamage(int amount) {
         health -= amount;
     }
-}
+} 
