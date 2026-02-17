@@ -1,0 +1,8 @@
+# build folders
+test/
+debug/
+release/
+
+# build files
+*.class
+*.jar
