@@ -17,7 +17,7 @@ public static void main(String[] args){
         
         switch (opction) {           
             case 1: 
-                    player.Heal(10);
+                    player.heal(10);
             break;
             case 2:
                     player.takeDamage(10);

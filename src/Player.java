@@ -20,7 +20,7 @@ public  class Player {
         return health;
     }
 
-    public void Heal(int amount) {
+    public void heal(int amount) {
         health += amount;
     }
 
